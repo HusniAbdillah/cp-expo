@@ -11,7 +11,7 @@ void visualizeSearch(vector<int>& arr, int left, int right, int mid, int target)
         else if (i >= left && i <= right)
             cout << "\033[1;33m" << arr[i] << "\033[0m ";
         else
-            cout << arr[i] << " ";                       
+            cout << arr[i] << " ";
     }
     cout << endl;
     Sleep(1000);
